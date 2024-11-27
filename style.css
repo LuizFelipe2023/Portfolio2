@@ -1,0 +1,152 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333; 
+    background-color: #f8f9fa; 
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #333;
+}
+
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 500;
+}
+
+
+header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .nav-link {
+    color: #ccc;
+}
+
+header .nav-link:hover {
+    color: #fff;
+}
+
+
+.container, .container-fluid {
+    max-width: 1200px;
+}
+
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+}
+
+
+.card-body {
+    padding: 1.5rem;
+    flex-grow: 1; 
+}
+
+
+.card-img-top {
+    object-fit: cover;
+    width: 100%; 
+    height: 200px; 
+}
+
+
+.card-body p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+
+.card-body h5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+
+form input[type="search"] {
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+form button {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .card-body p {
+        font-size: 0.95rem;
+    }
+
+    .card-img-top {
+        height: 150px; 
+    }
+}
+.hover-zoom:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.tech-icons i {
+    transition: transform 0.3s ease-in-out;
+}
+
+.tech-icons i:hover {
+    transform: scale(1.1);
+}
+
+footer a {
+    font-size: 1.5rem;
+}
+
+.tech-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tech-icons .d-inline-block {
+    transition: transform 0.3s ease;
+}
+
+.tech-icons .d-inline-block:hover {
+    transform: translateY(-5px);
+}
+
